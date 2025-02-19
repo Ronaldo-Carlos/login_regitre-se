@@ -57,6 +57,7 @@
   border-radius: 5px;
   display: flex;
   align-items: center;
+  padding: 10px;
   max-height: 65px;
   transition: max-height 0.5s;
   overflow: hidden;
@@ -67,11 +68,12 @@ input {
   background: transparent;
   border: 0;
   outline: 0;
-  padding: 18px 15px;
+  padding: 5px 5px 5px 10px;
 }
 
 .input-field i {
-  margin-left: 15px;
+  margin-left: 5px; /* Diminui o espaço inicial */
+  margin-right: 15px; /* Aumenta o espaço entre o ícone e o campo */
   color: #999;
 }
 
